@@ -1,0 +1,160 @@
+*{
+padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+}
+.borde{
+    border: 0.5px solid black;
+}
+.conteiner{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+}
+.conteiner2{
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+}
+#imagenfondo3{
+width: 100%;
+height: 500px;
+background-image: url(../Imagenes/Fto3.jpg);   
+background-repeat: no-repeat; 
+background-size:cover;
+background-position: center;
+}
+
+#seccion100{
+width: 100%;
+height: 800px;
+justify-content: center;
+text-align: center;
+align-items: center;
+}
+.justificado{
+justify-content: space-between;
+}
+.espacio{
+    width: 46%;
+    height: auto;
+}
+.espacio2{
+width: 32%;
+height: auto;  
+padding: 2em;  
+}
+#tamano{
+width: 47em;
+height: 2em; 
+color: #ffff;   
+}
+
+
+#noestilo{
+list-style: none;  
+}
+#noestilo,li{
+padding-left:1em; 
+font-family: 'Oswald',sans-serif;
+}
+#cetrado3{
+align-items: center;  
+}
+#derecha{
+    justify-content: flex-end;
+}
+#logo{
+width: 3.2em;
+height: 3.2em;   
+}
+
+#derecha{
+justify-content: end;    
+}
+
+#linea{
+border-left: 3px solid orange;
+height: 100%;
+padding-left: 0.5em ;    
+}
+
+#imagenfondo{
+width: 100%;
+height: 700px;
+background-image: url(../Imagenes/Fto1.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center;
+opacity:96% ;
+
+}
+
+h1{
+    font-family: 'Oswald',sans-serif;
+    font-size:2em ;
+}
+h2{
+    font-family: 'Karla',sans-serif;
+    font-size: 1em;
+}
+
+i{
+    padding-left: 0.5em;
+    margin-right: 1em;
+}
+header{
+    background-color:#ffff;
+    height: 4em;
+}
+#sobre{
+font-family: 'Oswald',sans-serif;
+color:rgb(212, 126, 51);
+}
+#sobre2{
+    font-size: 4em;
+    padding-bottom: 0.3em;
+    color: #ffff;
+}
+#seccion{
+padding-bottom: 4em;
+width: 100%;
+height:700px;
+flex-direction: column;
+justify-content:center ;
+align-items: center;
+}
+#separador{
+    margin-right:2em ;
+    background-color: orange;
+    color: #ffff;
+     padding: 1em;
+}
+#separador2{
+    color: #ffff;
+    padding: 1em;
+    border: 1px solid #ffff;
+}
+#separador3{
+background-color: orange;    
+color: #fff;
+padding:1em;
+}
+#footer1{
+width:65%;
+height:270px;
+background-color:rgb(54, 55, 63);
+}
+#footer2{
+width: 35%;
+height: 270px;
+background-color: #26272e;
+justify-content: center;
+align-items: left;
+text-align: left;
+}
+
+input{
+padding: 0.6em;
+border: 2px solid rgb(54, 55, 63);
+}
